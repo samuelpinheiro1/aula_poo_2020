@@ -5,7 +5,7 @@ class Conta:
     def creditar(self, valor):
         self.__saldo += valor
 
-    def deditar(self, valor):
+    def debitar(self, valor):
         self.__saldo -= valor
 
     def get_numero(self):
