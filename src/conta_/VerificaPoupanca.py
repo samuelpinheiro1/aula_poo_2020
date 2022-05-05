@@ -17,4 +17,4 @@ class VeificaPoupanca:
 
         if isinstance(conta, ContaPoupanca):
             conta.render_juros(0.1)
-            print("Saldo com juros: {}". format(conta.get_saldo()))
+            print("Saldo com juros: {}".format(conta.get_saldo()))
